@@ -1,0 +1,167 @@
+@charset "UTF-8";
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box1 {
+  width: 400px;
+  height: 400px;
+  background-color: #ff0000;
+}
+.box2 {
+  width: 300px;
+  height: 300px;
+  background-color: #ff0000;
+}
+.container-q3 {
+  display: flex;
+  justify-content: center;
+}
+.box3-1,.box3-2 {
+  width: 300px;
+  height: 300px;
+}
+.box3-1 {
+  background-color: #0008ff;
+  margin-right: 150px;
+}
+.box3-2 {
+  background-color: #22ff00;
+}
+.container-q4 {
+  overflow: hidden;
+  width: 600px;
+  margin: auto;
+}
+.box4-1,.box4-2 {
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+.box4-1 {
+  background-color: #ff0000;
+}
+.box4-2 {
+  background-color: #0008ff;
+}
+.flex-container-q5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #000;
+}
+.box5-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background-color: #ff0000;
+}
+.box5-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background-color: #0008ff;
+}
+.box5-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background-color: #ff8400;
+}
+.flex-container-q6 {
+  display: flex;
+  justify-content: center;
+  color: #000;
+}
+.box6-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+  width: 300px;
+  height: 300px;
+  background-color: #00ff51;
+}
+.box6-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 2;
+  width: 300px;
+  height: 300px;
+  background-color: #d4ff00;
+}
+.box6-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 3;
+  width: 300px;
+  height: 300px;
+  background-color: #ff00ef;
+}
+.container-q7 {
+  width: 600px;
+  margin: auto;
+}
+.box7-1 {
+  width: 300px;
+  height: 300px;
+  background-color: #0008ff;
+  float: left;
+  visibility: hidden;
+}
+.box7-2 {
+  width: 300px;
+  height: 300px;
+  background-color: #00ff51;
+  float: left;
+}
+.box7-3 {
+  width: 300px;
+  height: 300px;
+  background-color: #ff0000;
+}
+@media screen and (max-width: 960px) {
+  .box1 {
+    width: 200px;
+    height: 200px;
+  }
+  .box2 {
+    background-color: #007bff;
+  }
+  .box3-1 {
+    margin-right: 50px;
+  }
+.box4-1,.box4-2 {
+  float: none;
+}
+.flex-container-q5 {
+  flex-direction: row-reverse;
+}
+.box6-1 {
+  order: 2;
+}
+.box6-2 {
+  order: 3;
+}
+.box6-3 {
+  order: 1;
+}
+.box7-1 {
+  visibility: visible;
+}
+  }
+

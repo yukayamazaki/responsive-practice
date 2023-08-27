@@ -121,18 +121,19 @@
   height: 300px;
   background-color: #0008ff;
   float: left;
-  visibility: hidden;
+  display: none;
 }
 .box7-2 {
   width: 300px;
   height: 300px;
   background-color: #00ff51;
-  float: left;
+  float: right;
 }
 .box7-3 {
   width: 300px;
   height: 300px;
   background-color: #ff0000;
+  float: left;
 }
 @media screen and (max-width: 960px) {
   .box1 {
@@ -161,7 +162,10 @@
   order: 1;
 }
 .box7-1 {
-  visibility: visible;
+  display: block;
+}
+.box7-3 {
+  display: none;
 }
   }
 
